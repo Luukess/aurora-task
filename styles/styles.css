@@ -104,17 +104,40 @@ nav#mobile-nav-background {
     width: 0%;
     height: 100%;
     background-color: white;
-    transition: width 0.5s; }
+    transition: width 0.5s;
+    overflow: auto; }
     nav#mobile-nav-background #sidebar-container #sidebar {
       opacity: 0;
-      transition: opacity 2s; }
+      transition: opacity 2s;
+      overflow: auto; }
       nav#mobile-nav-background #sidebar-container #sidebar #close-box {
         padding: 10px;
         width: 100%;
         text-align: right; }
         nav#mobile-nav-background #sidebar-container #sidebar #close-box .close-icon {
           font-size: 26px;
-          cursor: pointer; }
+          cursor: pointer;
+          transition: color 0.3s; }
+          nav#mobile-nav-background #sidebar-container #sidebar #close-box .close-icon:hover {
+            color: #ecc7d0; }
+      nav#mobile-nav-background #sidebar-container #sidebar .nav-links {
+        width: 100%;
+        height: 100%;
+        padding: 10px; }
+        nav#mobile-nav-background #sidebar-container #sidebar .nav-links > ul {
+          list-style: none; }
+          nav#mobile-nav-background #sidebar-container #sidebar .nav-links > ul > li {
+            font-size: 14px;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 10px;
+            margin: 10px 0; }
+            nav#mobile-nav-background #sidebar-container #sidebar .nav-links > ul > li > a {
+              text-decoration: none;
+              color: #000;
+              transition: color 0.3s; }
+              nav#mobile-nav-background #sidebar-container #sidebar .nav-links > ul > li > a:hover {
+                color: #ecc7d0; }
 
 @media (max-width: 575.98px) {
   #bar-container {
