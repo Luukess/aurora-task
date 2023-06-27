@@ -18,6 +18,16 @@ nav#mobile-nav-background {
     #sidebar {
       opacity: 0;
       transition: opacity 2s;
+
+      #close-box {
+        padding: 10px;
+        width: 100%;
+        text-align: right;
+        .close-icon {
+          font-size: 26px;
+          cursor: pointer;
+        }
+      }
     }
   }
 }

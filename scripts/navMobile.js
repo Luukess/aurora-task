@@ -9,11 +9,11 @@ window.onload = function () {
             sidebarContainer.style.width = '80%';
             sidebar.style.opacity = '1';
             sidebar.style.transition = 'opacity 2s';
-        } else if (e.target.id === 'mobile-nav-background') {
+        } else if (e.target.id === 'mobile-nav-background' || e.target.className === 'icon-cancel close-icon') {
             mobileNavBackground.style.width = '0%';
             sidebarContainer.style.width = '0%';
             sidebar.style.opacity = '0';
             sidebar.style.transition = 'opacity 0.2s';
-        };
+        }
     };
 };
