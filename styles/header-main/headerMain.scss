@@ -1,0 +1,36 @@
+#header-main {
+  padding: 16px 8px;
+  max-width: 1228px;
+  height: 85px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .mobile-header-main {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: flex-start;
+    align-items: center;
+
+    .hamburger-menu {
+      font-size: 32px;
+    }
+    #logo {
+      margin-left: 20px;
+    }
+  }
+
+  #search-and-basket-container {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: flex-end;
+    align-items: center;
+
+    .search-and-basket-element {
+      padding: 10px;
+    }
+  }
+}
