@@ -5,7 +5,8 @@
   font-family: "Lato", sans-serif;
 }
 @import "./varColors.scss";
-@import "./header-elements/headerTop.scss";
+@import "./header-top/headerTop.scss";
 @import "./header-main/headerMain.scss";
+@import "./mobile-nav/mobileNav.scss";
 
 @import "./media/headerTopMedia.scss";

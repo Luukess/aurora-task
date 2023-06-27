@@ -1,0 +1,23 @@
+@import "../varColors.scss";
+
+nav#mobile-nav-background {
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  background-color: $mobileNavOpacity;
+  top: 0;
+  left: 0;
+  transition: width 0.5s;
+
+  #sidebar-container {
+    width: 0%;
+    height: 100%;
+    background-color: white;
+    transition: width 0.5s;
+
+    #sidebar {
+      opacity: 0;
+      transition: opacity 2s;
+    }
+  }
+}
