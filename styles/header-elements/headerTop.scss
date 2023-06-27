@@ -1,6 +1,7 @@
 #bar-container {
   width: 100%;
   border-bottom: 1px solid $contactBarBorder;
+  display: block;
 }
 
 #contact-bar {
@@ -68,5 +69,11 @@
     .auth-bar-element-border-left {
       border-left: 1px solid $contactBarBorder;
     }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #bar-container {
+    display: none;
   }
 }
