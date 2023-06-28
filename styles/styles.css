@@ -104,6 +104,22 @@ img#search-icon {
 img#basket-icon {
   cursor: pointer; }
 
+#header-main-lg-wrapper {
+  display: block; }
+  #header-main-lg-wrapper #header-main-lg {
+    padding: 16px 8px;
+    height: 80px;
+    max-width: 1245px;
+    margin: 0 auto;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    #header-main-lg-wrapper #header-main-lg .header-main-lg-element {
+      width: 33%;
+      height: 100%;
+      background-color: pink; }
+
 #mobile-nav-wrapper {
   display: none; }
 
