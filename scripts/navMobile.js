@@ -27,7 +27,7 @@ window.onload = function () {
 };
 
 function resetMenu() {
-    if (window.innerWidth >= 1199.98) {
+    if (window.innerWidth >= 991.98) {
         mobileNavWrapper.style.display = 'none';
         mobileNavBackground.style.width = '0%';
         sidebarContainer.style.width = '0%';

@@ -9,7 +9,7 @@ function handleSearchMobileBox() {
 
 function resetSearchBox() {
     const mobileSearchBoxContainer = document.getElementById('search-box-mobile');
-    if (window.innerWidth >= 1199.98) {
+    if (window.innerWidth >= 991.98) {
         mobileSearchBoxContainer.style.display = 'none';
     };
 };
