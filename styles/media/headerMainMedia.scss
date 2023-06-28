@@ -2,11 +2,17 @@
   #header-mobile {
     display: none;
   }
+  #header-main-lg-wrapper {
+    display: block;
+  }
 }
 
 @media (max-width: 1199.98px) {
   #header-mobile {
     display: none;
+  }
+  #header-main-lg-wrapper {
+    display: block;
   }
 }
 
@@ -14,16 +20,25 @@
   #header-mobile {
     display: block;
   }
+  #header-main-lg-wrapper {
+    display: none;
+  }
 }
 
 @media (max-width: 767.98px) {
   #header-mobile {
     display: block;
   }
+  #header-main-lg-wrapper {
+    display: none;
+  }
 }
 
 @media (max-width: 575.98px) {
   #header-mobile {
     display: block;
+  }
+  #header-main-lg-wrapper {
+    display: none;
   }
 }
