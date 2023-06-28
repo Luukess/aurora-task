@@ -95,6 +95,12 @@
     #header-main #search-and-basket-container .search-and-basket-element {
       padding: 10px; }
 
+img#search-icon {
+  cursor: pointer; }
+
+img#basket-icon {
+  cursor: pointer; }
+
 nav#mobile-nav-background {
   width: 0%;
   height: 100%;
