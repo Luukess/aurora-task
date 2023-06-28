@@ -146,9 +146,10 @@ nav#mobile-nav-background {
   padding: 16px 8px;
   height: 80px;
   width: 100%;
-  box-shadow: 0px 15px 50px -5px rgba(0, 0, 0, 0.26);
-  -webkit-box-shadow: 0px 15px 50px -5px rgba(0, 0, 0, 0.26);
-  -moz-box-shadow: 0px 15px 50px -5px rgba(0, 0, 0, 0.26); }
+  box-shadow: 0px 46px 50px -11px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 46px 50px -11px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 46px 50px -11px rgba(0, 0, 0, 0.1);
+  display: none; }
   #search-box-mobile input[type="text"]#search-input-mobile {
     width: 100%;
     padding: 12px;
