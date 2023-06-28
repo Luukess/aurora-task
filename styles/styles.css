@@ -195,7 +195,9 @@ nav#mobile-nav-background {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    overflow-y: auto;
+    overflow-x: hidden; }
     #basket #basket-elements > p {
       font-weight: 600; }
 
