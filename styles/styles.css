@@ -37,7 +37,10 @@
           margin-right: 11px; }
         #contact-bar .contact-bar-container .contact-bar-element > ul > li > a {
           text-decoration: none;
-          color: #000; }
+          color: #000;
+          transition: color 0.3s; }
+          #contact-bar .contact-bar-container .contact-bar-element > ul > li > a:hover {
+            color: #ecc7d0; }
   #contact-bar .auth-bar-container {
     width: 50%;
     display: flex;
@@ -53,7 +56,11 @@
         font-style: normal;
         letter-spacing: normal;
         line-height: 16.68px;
-        text-align: left; }
+        text-align: left;
+        transition: color 0.3s;
+        cursor: pointer; }
+        #contact-bar .auth-bar-container .auth-bar-element > p:hover {
+          color: #ecc7d0; }
         #contact-bar .auth-bar-container .auth-bar-element > p > img {
           margin-right: 11px; }
     #contact-bar .auth-bar-container .auth-bar-element-border-left {
