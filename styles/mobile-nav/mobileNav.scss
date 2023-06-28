@@ -1,6 +1,10 @@
 @import "../varColors.scss";
 
-nav#mobile-nav-background {
+#mobile-nav-wrapper {
+  display: none;
+}
+
+#mobile-nav-background {
   width: 0%;
   height: 100%;
   position: absolute;
