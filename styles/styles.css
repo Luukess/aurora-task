@@ -205,33 +205,33 @@ nav#mobile-nav-background {
     #basket #basket-elements > p {
       font-weight: 600; }
 
-@media (max-width: 575.98px) {
-  #bar-container {
-    display: none; } }
-
 @media (max-width: 767.98px) {
   #bar-container {
     display: none; } }
 
 @media (max-width: 575.98px) {
-  #header-mobile {
-    display: block !important; } }
-
-@media (max-width: 767.98px) {
-  #header-mobile {
-    display: block !important; } }
-
-@media (max-width: 991.98px) {
-  #header-mobile {
-    display: block !important; } }
-
-@media (max-width: 1199.98px) {
-  #header-mobile {
+  #bar-container {
     display: none; } }
 
 @media (max-width: 1399.98px) {
   #header-mobile {
     display: none; } }
+
+@media (max-width: 1199.98px) {
+  #header-mobile {
+    display: none; } }
+
+@media (max-width: 991.98px) {
+  #header-mobile {
+    display: block; } }
+
+@media (max-width: 767.98px) {
+  #header-mobile {
+    display: block; } }
+
+@media (max-width: 575.98px) {
+  #header-mobile {
+    display: block; } }
 
 @media (max-width: 991.98px) {
   #basket {

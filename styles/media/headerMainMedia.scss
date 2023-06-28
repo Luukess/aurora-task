@@ -1,18 +1,6 @@
-@media (max-width: 575.98px) {
+@media (max-width: 1399.98px) {
   #header-mobile {
-    display: block !important;
-  }
-}
-
-@media (max-width: 767.98px) {
-  #header-mobile {
-    display: block !important;
-  }
-}
-
-@media (max-width: 991.98px) {
-  #header-mobile {
-    display: block !important;
+    display: none;
   }
 }
 
@@ -22,8 +10,20 @@
   }
 }
 
-@media (max-width: 1399.98px) {
+@media (max-width: 991.98px) {
   #header-mobile {
-    display: none;
+    display: block;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #header-mobile {
+    display: block;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #header-mobile {
+    display: block;
   }
 }
