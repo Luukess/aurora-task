@@ -1,8 +1,9 @@
+const mobileNavWrapper = document.getElementById('mobile-nav-wrapper');
+const mobileNavBackground = document.getElementById('mobile-nav-background');
+const sidebarContainer = document.getElementById('sidebar-container');
+const sidebar = document.getElementById('sidebar');
+
 window.onload = function () {
-    const mobileNavWrapper = document.getElementById('mobile-nav-wrapper');
-    const mobileNavBackground = document.getElementById('mobile-nav-background');
-    const sidebarContainer = document.getElementById('sidebar-container');
-    const sidebar = document.getElementById('sidebar');
 
     document.onclick = function (e) {
         if (e.target.className === 'icon-menu hamburger-icon-menu') {
@@ -24,3 +25,15 @@ window.onload = function () {
         }
     };
 };
+
+function resetMenu() {
+    if (window.innerWidth >= 1199.98) {
+        mobileNavWrapper.style.display = 'none';
+        mobileNavBackground.style.width = '0%';
+        sidebarContainer.style.width = '0%';
+        sidebar.style.opacity = '0';
+        sidebar.style.transition = 'opacity 0.2s';
+    };
+};
+
+window.addEventListener('resize', resetMenu);
