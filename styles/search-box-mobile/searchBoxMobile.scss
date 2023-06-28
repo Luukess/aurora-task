@@ -1,0 +1,26 @@
+@import "../varColors.scss";
+
+#search-box-mobile {
+  padding: 16px 8px;
+  height: 80px;
+  width: 100%;
+  box-shadow: 0px 20px 50px -5px rgba(0, 0, 0, 0.26);
+  -webkit-box-shadow: 0px 20px 50px -5px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0px 20px 50px -5px rgba(0, 0, 0, 0.26);
+
+  input[type="text"]#search-input-mobile {
+    width: 100%;
+    padding: 12px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 16px;
+    border-bottom: 1px solid $contactBarBorder;
+    transition: border 0.3s;
+
+    &:focus {
+      outline: none;
+      border-bottom: 1px solid $textHover;
+    }
+  }
+}

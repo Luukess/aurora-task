@@ -142,6 +142,26 @@ nav#mobile-nav-background {
               nav#mobile-nav-background #sidebar-container #sidebar .nav-links > ul > li > a:hover {
                 color: #ecc7d0; }
 
+#search-box-mobile {
+  padding: 16px 8px;
+  height: 80px;
+  width: 100%;
+  box-shadow: 0px 15px 50px -5px rgba(0, 0, 0, 0.26);
+  -webkit-box-shadow: 0px 15px 50px -5px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0px 15px 50px -5px rgba(0, 0, 0, 0.26); }
+  #search-box-mobile input[type="text"]#search-input-mobile {
+    width: 100%;
+    padding: 12px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 16px;
+    border-bottom: 1px solid #d7d7d7;
+    transition: border 0.3s; }
+    #search-box-mobile input[type="text"]#search-input-mobile:focus {
+      outline: none;
+      border-bottom: 1px solid #ecc7d0; }
+
 @media (max-width: 575.98px) {
   #bar-container {
     display: none; } }
