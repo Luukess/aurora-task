@@ -90,6 +90,7 @@
               src="assets/header-main/icon__basket.png"
               alt="basket icon"
               width="20"
+              onclick="handleDisplayBasket()"
             />
           </div>
         </div>
@@ -124,8 +125,20 @@
         placeholder="Co chcesz kupić?"
       />
     </div>
+    <div id="basket">
+      <div id="close-basket">
+        <i
+          class="icon-cancel basket-close-icon"
+          onclick="handleDisplayBasket()"
+        ></i>
+      </div>
+      <div id="basket-elements">
+        <p>Nie masz produktów w koszyku</p>
+      </div>
+    </div>
 
     <script src="scripts/navMobile.js"></script>
     <script src="scripts/searchBoxMobile.js"></script>
+    <script src="scripts/basketShop.js"></script>
   </body>
 </html>

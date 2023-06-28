@@ -169,6 +169,36 @@ nav#mobile-nav-background {
       outline: none;
       border-bottom: 1px solid #ecc7d0; }
 
+#basket {
+  display: none;
+  position: absolute;
+  top: 60px;
+  right: 18px;
+  width: 280px;
+  height: 118px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1);
+  z-index: 2; }
+  #basket #close-basket {
+    text-align: right;
+    font-size: 20px; }
+    #basket #close-basket .basket-close-icon {
+      color: #000;
+      transition: color 0.3s;
+      cursor: pointer; }
+      #basket #close-basket .basket-close-icon:hover {
+        color: #ecc7d0; }
+  #basket #basket-elements {
+    width: 100%;
+    height: calc(100% - 24px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    #basket #basket-elements > p {
+      font-weight: 600; }
+
 @media (max-width: 575.98px) {
   #bar-container {
     display: none; } }
