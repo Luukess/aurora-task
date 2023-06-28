@@ -111,7 +111,8 @@ nav#mobile-nav-background {
   background-color: rgba(0, 0, 0, 0.4);
   top: 0;
   left: 0;
-  transition: width 0.5s; }
+  transition: width 0.5s;
+  z-index: 3; }
   nav#mobile-nav-background #sidebar-container {
     width: 0%;
     height: 100%;
