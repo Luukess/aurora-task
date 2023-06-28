@@ -59,39 +59,41 @@
           </div>
         </div>
       </div>
-      <div id="header-main">
-        <div class="mobile-header-main">
-          <div class="hamburger-menu">
-            <i class="icon-menu hamburger-icon-menu"></i>
+      <div id="header-mobile">
+        <div id="header-main">
+          <div class="mobile-header-main">
+            <div class="hamburger-menu">
+              <i class="icon-menu hamburger-icon-menu"></i>
+            </div>
+            <div id="logo">
+              <a href="index.html">
+                <img
+                  src="assets/header-main/logo__aurora-box.png"
+                  alt="logo"
+                  width="100"
+                />
+              </a>
+            </div>
           </div>
-          <div id="logo">
-            <a href="index.html">
+          <div id="search-and-basket-container">
+            <div class="search-and-basket-element">
               <img
-                src="assets/header-main/logo__aurora-box.png"
-                alt="logo"
-                width="100"
+                id="search-icon"
+                src="assets/header-main/icon__lens.png"
+                alt="search icon"
+                width="20"
+                onclick="handleSearchMobileBox()"
               />
-            </a>
-          </div>
-        </div>
-        <div id="search-and-basket-container">
-          <div class="search-and-basket-element">
-            <img
-              id="search-icon"
-              src="assets/header-main/icon__lens.png"
-              alt="search icon"
-              width="20"
-              onclick="handleSearchMobileBox()"
-            />
-          </div>
-          <div class="search-and-basket-element">
-            <img
-              id="basket-icon"
-              src="assets/header-main/icon__basket.png"
-              alt="basket icon"
-              width="20"
-              onclick="handleDisplayBasket()"
-            />
+            </div>
+            <div class="search-and-basket-element">
+              <img
+                id="basket-icon"
+                src="assets/header-main/icon__basket.png"
+                alt="basket icon"
+                width="20"
+                onclick="handleDisplayBasket()"
+              />
+            </div>
           </div>
         </div>
       </div>
