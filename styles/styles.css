@@ -141,6 +141,30 @@ img#basket-icon {
         #header-main-lg-wrapper #header-main-lg #header-main-search input[type="text"]#search-input-desktop:focus {
           outline: none;
           border-bottom: 1px solid #ecc7d0; }
+    #header-main-lg-wrapper #header-main-lg #basket-desktop-wrapper {
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      cursor: pointer; }
+    #header-main-lg-wrapper #header-main-lg .basket-desktop-element {
+      padding: 5px; }
+    #header-main-lg-wrapper #header-main-lg #basket-desktop-writing {
+      height: 100%; }
+      #header-main-lg-wrapper #header-main-lg #basket-desktop-writing > p {
+        height: 14px;
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 13.89px;
+        text-align: left;
+        color: #000;
+        transition: color 0.3s; }
+        #header-main-lg-wrapper #header-main-lg #basket-desktop-writing > p:hover {
+          color: #ecc7d0; }
 
 #mobile-nav-wrapper {
   display: none; }

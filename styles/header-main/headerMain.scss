@@ -58,7 +58,6 @@ img#basket-icon {
     padding: 16px 5px;
     max-width: 1245px;
     margin: 0 auto;
-    // background-color: red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,8 +100,38 @@ img#basket-icon {
       }
     }
 
-    // #header-main-basket {
-    //   // background-color: red;
-    // }
+    #basket-desktop-wrapper {
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      cursor: pointer;
+    }
+
+    .basket-desktop-element {
+      padding: 5px;
+    }
+
+    #basket-desktop-writing {
+      height: 100%;
+
+      & > p {
+        height: 14px;
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 13.89px;
+        text-align: left;
+        color: $basicTextColor;
+        transition: color 0.3s;
+
+        &:hover {
+          color: $textHover;
+        }
+      }
+    }
   }
 }
