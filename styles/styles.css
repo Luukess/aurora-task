@@ -92,7 +92,7 @@
   #header-main #search-and-basket-container {
     display: flex;
     flex-direction: row;
-    width: 33%;
+    width: 30%;
     justify-content: flex-end;
     align-items: center; }
     #header-main #search-and-basket-container .search-and-basket-element {
