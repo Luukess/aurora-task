@@ -125,32 +125,22 @@ img#basket-icon {
       display: flex;
       justify-content: center;
       align-items: center; }
-      #header-main-lg-wrapper #header-main-lg #header-main-search #header-main-desktop-input-wrapper {
+      #header-main-lg-wrapper #header-main-lg #header-main-search input[type="text"]#search-input-desktop {
         width: 100%;
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center; }
-        #header-main-lg-wrapper #header-main-lg #header-main-search #header-main-desktop-input-wrapper label {
-          height: 44px;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          border-bottom: 1px solid #d7d7d7;
-          transition: border 0.3s;
-          cursor: pointer; }
-        #header-main-lg-wrapper #header-main-lg #header-main-search #header-main-desktop-input-wrapper input[type="text"]#search-input-desktop {
-          width: 100%;
-          padding: 12px;
-          border-top: none;
-          border-left: none;
-          border-right: none;
-          font-size: 16px;
-          border-bottom: 1px solid #d7d7d7;
-          transition: border 0.3s; }
-          #header-main-lg-wrapper #header-main-lg #header-main-search #header-main-desktop-input-wrapper input[type="text"]#search-input-desktop:focus {
-            outline: none;
-            border-bottom: 1px solid #ecc7d0; }
+        padding: 12px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        font-size: 16px;
+        border-bottom: 1px solid #d7d7d7;
+        transition: border 0.3s;
+        background-image: url("../../assets/header-main/icon__lens.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 15px; }
+        #header-main-lg-wrapper #header-main-lg #header-main-search input[type="text"]#search-input-desktop:focus {
+          outline: none;
+          border-bottom: 1px solid #ecc7d0; }
 
 #mobile-nav-wrapper {
   display: none; }

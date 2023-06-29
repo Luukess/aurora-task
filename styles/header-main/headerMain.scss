@@ -80,39 +80,29 @@ img#basket-icon {
       justify-content: center;
       align-items: center;
 
-      #header-main-desktop-input-wrapper {
+      input[type="text"]#search-input-desktop {
         width: 100%;
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
+        padding: 12px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        font-size: 16px;
+        border-bottom: 1px solid $contactBarBorder;
+        transition: border 0.3s;
+        background-image: url("../../assets/header-main/icon__lens.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 15px;
 
-        label {
-          height: 44px;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          border-bottom: 1px solid $contactBarBorder;
-          transition: border 0.3s;
-          cursor: pointer;
-        }
-
-        input[type="text"]#search-input-desktop {
-          width: 100%;
-          padding: 12px;
-          border-top: none;
-          border-left: none;
-          border-right: none;
-          font-size: 16px;
-          border-bottom: 1px solid $contactBarBorder;
-          transition: border 0.3s;
-
-          &:focus {
-            outline: none;
-            border-bottom: 1px solid $textHover;
-          }
+        &:focus {
+          outline: none;
+          border-bottom: 1px solid $textHover;
         }
       }
     }
+
+    // #header-main-basket {
+    //   // background-color: red;
+    // }
   }
 }
