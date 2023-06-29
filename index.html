@@ -59,71 +59,91 @@
           </div>
         </div>
       </div>
-      <div id="header-mobile">
-        <div id="header-main">
-          <div class="mobile-header-main">
-            <div class="hamburger-menu">
-              <i class="icon-menu hamburger-icon-menu"></i>
+      <div id="wrapper-main-header">
+        <div id="header-mobile">
+          <div id="header-main">
+            <div class="mobile-header-main">
+              <div class="hamburger-menu">
+                <i class="icon-menu hamburger-icon-menu"></i>
+              </div>
+              <div id="logo">
+                <a href="index.html">
+                  <img
+                    src="assets/header-main/logo__aurora-box.png"
+                    alt="logo"
+                    width="100"
+                  />
+                </a>
+              </div>
             </div>
-            <div id="logo">
-              <a href="index.html">
+            <div id="search-and-basket-container">
+              <div class="search-and-basket-element">
                 <img
-                  src="assets/header-main/logo__aurora-box.png"
-                  alt="logo"
-                  width="100"
+                  id="search-icon"
+                  src="assets/header-main/icon__lens.png"
+                  alt="search icon"
+                  width="20"
+                  onclick="handleSearchMobileBox()"
                 />
-              </a>
-            </div>
-          </div>
-          <div id="search-and-basket-container">
-            <div class="search-and-basket-element">
-              <img
-                id="search-icon"
-                src="assets/header-main/icon__lens.png"
-                alt="search icon"
-                width="20"
-                onclick="handleSearchMobileBox()"
-              />
-            </div>
-            <div class="search-and-basket-element">
-              <img
-                id="basket-icon"
-                src="assets/header-main/icon__basket.png"
-                alt="basket icon"
-                width="20"
-                onclick="handleDisplayBasket()"
-              />
+              </div>
+              <div class="search-and-basket-element">
+                <img
+                  id="basket-icon"
+                  src="assets/header-main/icon__basket.png"
+                  alt="basket icon"
+                  width="20"
+                  onclick="handleDisplayBasket()"
+                />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div id="header-main-lg-wrapper">
-        <div id="header-main-lg">
-          <div id="header-main-logo" class="header-main-lg-element">
-            <a href="index.html"
-              ><img src="/assets/header-main/logo__aurora-box.png"
-            /></a>
-          </div>
-          <div id="header-main-search" class="header-main-lg-element">
-            <input
-              id="search-input-desktop"
-              type="text"
-              placeholder="Co chcesz kupić?"
-            />
-          </div>
-          <div id="header-main-basket" class="header-main-lg-element">
-            <div id="basket-desktop-wrapper">
-              <div id="basket-desktop-icon" class="basket-desktop-element">
-                <img
-                  src="assets/header-main/icon__basket.png"
-                  alt="basket icon"
-                  width="26"
-                />
-              </div>
-              <div id="basket-desktop-writing" class="basket-desktop-element">
-                <p>Twój koszyk</p>
+        <div id="header-main-lg-wrapper">
+          <div id="header-main-lg">
+            <div id="header-main-logo" class="header-main-lg-element">
+              <a href="index.html"
+                ><img src="/assets/header-main/logo__aurora-box.png"
+              /></a>
+            </div>
+            <div id="header-main-search" class="header-main-lg-element">
+              <input
+                id="search-input-desktop"
+                type="text"
+                placeholder="Co chcesz kupić?"
+              />
+            </div>
+            <div id="header-main-basket" class="header-main-lg-element">
+              <div id="basket-desktop-wrapper">
+                <div
+                  id="basket-desktop-icon"
+                  class="basket-desktop-element"
+                  onclick="handleDisplayBasket()"
+                >
+                  <img
+                    src="assets/header-main/icon__basket.png"
+                    alt="basket icon"
+                    width="26"
+                  />
+                  <div
+                    id="basket-desktop-writing"
+                    class="basket-desktop-element"
+                  >
+                    <p>Twój koszyk</p>
+                  </div>
+                </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div id="basket">
+          <div id="close-basket">
+            <i
+              class="icon-cancel basket-close-icon"
+              onclick="handleDisplayBasket()"
+            ></i>
+          </div>
+          <div id="basket-elements">
+            <p>Nie masz produktów w koszyku</p>
           </div>
         </div>
       </div>
@@ -174,17 +194,6 @@
           type="text"
           placeholder="Co chcesz kupić?"
         />
-      </div>
-    </div>
-    <div id="basket">
-      <div id="close-basket">
-        <i
-          class="icon-cancel basket-close-icon"
-          onclick="handleDisplayBasket()"
-        ></i>
-      </div>
-      <div id="basket-elements">
-        <p>Nie masz produktów w koszyku</p>
       </div>
     </div>
 

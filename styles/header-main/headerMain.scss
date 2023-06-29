@@ -4,6 +4,10 @@
   display: none;
 }
 
+#wrapper-main-header {
+  position: relative;
+}
+
 #header-main {
   padding: 16px 8px;
   max-width: 1245px;
@@ -106,11 +110,15 @@ img#basket-icon {
       flex-direction: row;
       align-items: center;
       justify-content: flex-end;
-      cursor: pointer;
     }
 
     .basket-desktop-element {
       padding: 5px;
+    }
+
+    #basket-desktop-icon {
+      display: flex;
+      cursor: pointer;
     }
 
     #basket-desktop-writing {
@@ -118,7 +126,6 @@ img#basket-icon {
 
       & > p {
         height: 14px;
-        margin-top: 10px;
         font-size: 14px;
         font-weight: 700;
         font-style: normal;
