@@ -361,6 +361,7 @@ img#basket-icon {
   max-width: 1245px;
   height: 60px;
   margin: 0 auto;
+  border-bottom: 1px solid #d7d7d7;
 }
 #header-nav-lg-wrapper #header-nav-lg ul {
   list-style: none;
