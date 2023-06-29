@@ -33,7 +33,7 @@
   #search-and-basket-container {
     display: flex;
     flex-direction: row;
-    width: 30%;
+    width: 33%;
     justify-content: flex-end;
     align-items: center;
 
@@ -55,19 +55,62 @@ img#basket-icon {
   display: block;
 
   #header-main-lg {
-    padding: 16px 8px;
-    height: 80px;
+    padding: 16px 5px;
     max-width: 1245px;
     margin: 0 auto;
-    background-color: red;
+    // background-color: red;
     display: flex;
     align-items: center;
     justify-content: center;
 
     .header-main-lg-element {
       width: 33%;
-      height: 100%;
-      background-color: pink;
+      height: 66px;
+    }
+
+    #header-main-logo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    #header-main-search {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      #header-main-desktop-input-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+
+        label {
+          height: 44px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          border-bottom: 1px solid $contactBarBorder;
+        }
+
+        input[type="text"]#search-input-desktop {
+          width: 100%;
+          padding: 12px;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          font-size: 16px;
+          border-bottom: 1px solid $contactBarBorder;
+          transition: border 0.3s;
+
+          &:focus {
+            outline: none;
+            border-bottom: 1px solid $textHover;
+          }
+        }
+      }
     }
   }
 }
