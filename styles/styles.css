@@ -136,7 +136,8 @@ img#basket-icon {
           flex-direction: column;
           align-items: center;
           justify-content: center;
-          border-bottom: 1px solid #d7d7d7; }
+          border-bottom: 1px solid #d7d7d7;
+          transition: border 0.3s; }
         #header-main-lg-wrapper #header-main-lg #header-main-search #header-main-desktop-input-wrapper input[type="text"]#search-input-desktop {
           width: 100%;
           padding: 12px;

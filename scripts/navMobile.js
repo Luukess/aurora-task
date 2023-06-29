@@ -2,6 +2,8 @@ const mobileNavWrapper = document.getElementById('mobile-nav-wrapper');
 const mobileNavBackground = document.getElementById('mobile-nav-background');
 const sidebarContainer = document.getElementById('sidebar-container');
 const sidebar = document.getElementById('sidebar');
+const searchInputDesktop = document.getElementById('search-input-desktop');
+const searchLabelInputDesktop = document.getElementById('label-search-input-desktop');
 
 window.onload = function () {
 
@@ -22,6 +24,12 @@ window.onload = function () {
             setTimeout(() => {
                 mobileNavWrapper.style.display = 'none';
             }, 300);
+        }
+
+        if (searchInputDesktop === document.activeElement) {
+            searchLabelInputDesktop.style.borderBottom = '1px solid #ecc7d0';
+        } else {
+            searchLabelInputDesktop.style.borderBottom = '1px solid #d7d7d7';
         }
     };
 };

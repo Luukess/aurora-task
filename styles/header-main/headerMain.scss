@@ -93,6 +93,7 @@ img#basket-icon {
           align-items: center;
           justify-content: center;
           border-bottom: 1px solid $contactBarBorder;
+          transition: border 0.3s;
         }
 
         input[type="text"]#search-input-desktop {
