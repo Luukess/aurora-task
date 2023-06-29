@@ -137,7 +137,8 @@ img#basket-icon {
           align-items: center;
           justify-content: center;
           border-bottom: 1px solid #d7d7d7;
-          transition: border 0.3s; }
+          transition: border 0.3s;
+          cursor: pointer; }
         #header-main-lg-wrapper #header-main-lg #header-main-search #header-main-desktop-input-wrapper input[type="text"]#search-input-desktop {
           width: 100%;
           padding: 12px;

@@ -94,6 +94,7 @@ img#basket-icon {
           justify-content: center;
           border-bottom: 1px solid $contactBarBorder;
           transition: border 0.3s;
+          cursor: pointer;
         }
 
         input[type="text"]#search-input-desktop {
